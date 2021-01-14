@@ -58,11 +58,11 @@ model2 = tf.keras.Sequential([
 ```
 ## Model Results 
 
-**CNN Model** <br/>
+**CNN Model** 
+
 Train:
   - Accuracy- 0.890
-  - Loss- 0.926
-  
+  - Loss- 0.926 <br/>  
  Validation: 
   - Accuracy- 0.505
   - Loss- 1.139
@@ -77,8 +77,7 @@ Test:
 
 Train: 
   - Accuracy- 0.878
-  - Loss 0.63
-
+  - Loss 0.63 <br/>
 Validation: 
   - Accuracy- 0.980
   - Loss- 0.5362
