@@ -62,8 +62,9 @@ model2 = tf.keras.Sequential([
 
 Train:
   - Accuracy- 0.890
-  - Loss- 0.926 <br/>  
- Validation: 
+  - Loss- 0.926 
+  
+Validation: 
   - Accuracy- 0.505
   - Loss- 1.139
  
@@ -77,7 +78,8 @@ Test:
 
 Train: 
   - Accuracy- 0.878
-  - Loss 0.63 <br/>
+  - Loss 0.63 
+
 Validation: 
   - Accuracy- 0.980
   - Loss- 0.5362
