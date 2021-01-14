@@ -31,7 +31,7 @@ Following the allocation of the images, they were pre-processed using Tensorflow
 
 Initially, a very common CNN with max pooling layers was used, and although it showed high accuracy on the training set, I noticed there was a noticeably big discrepency between the training and validation accuracies (>30%). As such, the original CNN was modified with a drop out layer and a L2 regularizer was used in hopes of decreasing this difference. Unfortunately, the modified network did not have much success in closing the gap between the 2 sets. Moving from this, I decided to apply transfer learning to the images to see if the results would be better; the pre-trained model which was used for this is the MobileNet V2 model. Both the modified CNN and mobilenet model can be seen below: 
 
-  **Modified Model**
+  **Modified CNN Model**
 ```
 model = tf.keras.Sequential([
     
@@ -46,7 +46,7 @@ model = tf.keras.Sequential([
     tf.keras.layers.Dense(2, activation = "softmax", kernel_regularizer = tf.keras.regularizers.l2(0.0001))
     ])
 ```
-  **Tranfer Model**
+  **MobileNet Transfer Model**
 ```
 mobilenet_model = tf.keras.applications.mobilenet_v2.MobileNetV2()
 mobilenet_model.trainable = False
