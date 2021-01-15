@@ -70,7 +70,7 @@ Validation:
  
 Test: 
   - Accuracy- 0.553
-  - Loss 0.926
+  - Loss- 0.926
 
 <img src="imgs/cnn model.png"  width = 400/>
 
@@ -78,19 +78,21 @@ Test:
 
 Train: 
   - Accuracy- 0.878
-  - Loss 0.63 
+  - Loss- 0.630 
 
 Validation: 
   - Accuracy- 0.980
-  - Loss- 0.5362
+  - Loss- 0.536
 
 Test: 
   - Accuracy- 0.940
-  - Loss- 0.5402
+  - Loss- 0.540
   
 <img src="imgs/transfer model.png"  width = 400/>
 
+## Conclusion
 
+Overall, through the use of transfer learning, we can see that there was a noticeably smaller difference in accuracy between the training and validation set. In addition, the pre-trained model was also able to perform significantly better than the CNN model on the test set. More specifically, the model which used transfer learning achieved a test accuracy of 94% while the "regular" CNN model only reached a test accuracy of 55%. 
 
 
 
