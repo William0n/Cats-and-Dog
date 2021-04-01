@@ -8,7 +8,7 @@ The purpose of this repo is to utilize convolutional neural networks (CNN) on a 
 Main Packages:
 - Os
 - Random
-- Tensorflow
+- Tensorflow/keras
 - Numpy
 - Matplotlib
 - PIL
